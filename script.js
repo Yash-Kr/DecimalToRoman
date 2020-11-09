@@ -130,6 +130,7 @@ document.querySelector(".btn").addEventListener('click',function()
         {
         toRoman(n);
         document.querySelector(".output").innerHTML= "&#9758; "+n+" in Roman is : "+result;
+        document.querySelector(".output").style.outline="3px solid green";
         result="";
         }
         else

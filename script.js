@@ -133,9 +133,11 @@ document.querySelector(".btn").addEventListener('click',function()
         result="";
         }
         else
-         document.querySelector(".output").textContent="Dont be Smart ! 😎";
-        
+         document.querySelector(".output").textContent="Dont be Smart ! 😎";  
       }
+     else
+          document.querySelector(".output").textContent="Dont be Smart ! 😎";  
+            
 
     }
 });

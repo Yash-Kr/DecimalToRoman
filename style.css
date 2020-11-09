@@ -150,6 +150,10 @@ h2 {
      }
       
      .input-output{ width: 100%; top:180%; margin-bottom: 2rem;}
+    
+    .input{
+        width: 40%;
+    }
 
      .div-input{
         margin-bottom: 3rem;

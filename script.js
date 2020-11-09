@@ -123,6 +123,8 @@ document.querySelector(".btn").addEventListener('click',function()
     x=document.querySelector(".input").value;
     if(x)
     {
+        if(x== Math.floor(x))
+      {
         var n= parseInt(x);
         if(n>=1 && n<=1000)
         {
@@ -132,7 +134,8 @@ document.querySelector(".btn").addEventListener('click',function()
         }
         else
          document.querySelector(".output").textContent="Dont be Smart ! 😎";
-         
+        
+      }
 
     }
 });
